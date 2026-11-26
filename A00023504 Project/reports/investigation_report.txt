@@ -1,0 +1,61 @@
+SECURITY LOG INVESTIGATION REPORT
+================================
+
+FIREWALL RESULTS
+----------------
+Valid records: 892
+Malformed records: 8
+Allowed connections: 522
+Blocked connections: 370
+Unique source IPs: 202
+
+TOP BLOCKED SOURCE IPs
+203.0.113.55: 78 blocked connections
+203.0.113.77: 23 blocked connections
+198.51.100.77: 22 blocked connections
+203.0.113.90: 20 blocked connections
+192.168.1.34: 5 blocked connections
+192.168.1.21: 5 blocked connections
+192.168.1.23: 5 blocked connections
+192.168.1.26: 5 blocked connections
+10.0.0.11: 5 blocked connections
+192.168.1.40: 5 blocked connections
+
+AUTHENTICATION RESULTS
+----------------------
+Valid records: 514
+Malformed records: 6
+Successful logins: 313
+Failed logins: 163
+Account locks: 5
+Logouts: 33
+
+TOP FAILED LOGIN IPs
+198.51.100.23: 46 failed logins
+203.0.113.55: 20 failed logins
+203.0.113.77: 17 failed logins
+192.168.1.20: 4 failed logins
+192.168.1.30: 3 failed logins
+10.0.0.25: 3 failed logins
+10.0.0.14: 3 failed logins
+10.0.0.19: 3 failed logins
+192.168.1.31: 3 failed logins
+10.0.0.21: 3 failed logins
+
+TOP FAILED USERNAMES
+admin: 52 failed logins
+svc_backup: 28 failed logins
+root: 15 failed logins
+bob: 14 failed logins
+carol: 14 failed logins
+david: 12 failed logins
+alice: 12 failed logins
+administrator: 9 failed logins
+student: 7 failed logins
+
+SECURITY OBSERVATIONS
+---------------------
+- 203.0.113.55 generated 78 blocked firewall connections.
+- 198.51.100.23 generated 46 failed login attempts.
+- The admin account had 52 failed login attempts.
+- 203.0.113.55, 203.0.113.77 and 198.51.100.23 appear in both firewall and authentication findings.

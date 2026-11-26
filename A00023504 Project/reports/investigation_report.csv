@@ -1,0 +1,48 @@
+Category,Finding,Count
+Firewall,Total records,892
+Firewall,Allowed connections,522
+Firewall,Blocked connections,370
+Firewall,Unique source IPs,202
+Top blocked IP,203.0.113.55,78
+Top blocked IP,203.0.113.77,23
+Top blocked IP,198.51.100.77,22
+Top blocked IP,203.0.113.90,20
+Top blocked IP,192.168.1.34,5
+Top blocked IP,192.168.1.21,5
+Top blocked IP,192.168.1.23,5
+Top blocked IP,192.168.1.26,5
+Top blocked IP,10.0.0.11,5
+Top blocked IP,192.168.1.40,5
+Targeted port,443,104
+Targeted port,8080,100
+Targeted port,80,93
+Targeted port,993,90
+Targeted port,123,87
+Targeted port,53,85
+Targeted port,445,85
+Targeted port,22,80
+Targeted port,587,79
+Targeted port,3389,77
+Authentication,Total records,514
+Authentication,Successful logins,313
+Authentication,Failed logins,163
+Authentication,Account locks,5
+Failed login IP,198.51.100.23,46
+Failed login IP,203.0.113.55,20
+Failed login IP,203.0.113.77,17
+Failed login IP,192.168.1.20,4
+Failed login IP,192.168.1.30,3
+Failed login IP,10.0.0.25,3
+Failed login IP,10.0.0.14,3
+Failed login IP,10.0.0.19,3
+Failed login IP,192.168.1.31,3
+Failed login IP,10.0.0.21,3
+Failed username,admin,52
+Failed username,svc_backup,28
+Failed username,root,15
+Failed username,bob,14
+Failed username,carol,14
+Failed username,david,12
+Failed username,alice,12
+Failed username,administrator,9
+Failed username,student,7
